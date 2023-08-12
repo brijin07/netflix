@@ -1,0 +1,1041 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* -------------------------------home--------------------------- */
+
+.bg-img {
+    background-image: url('./img/Untitled.jpeg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 641px;
+    /* filter: brightness(40%); */
+}
+
+.nv {
+    /* background-color: blueviolet; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 22px;
+}
+
+.netflix-img {
+    background-image: url('./img/netflix\ logo.png');
+    background-size: cover;
+    height: 58px;
+    width: 176px;
+    margin-top: -5px;
+    margin-left: -86px;
+    filter: brightness(100%);
+}
+
+.netflix-cntnt {
+    display: flex;
+    padding-left: 115px;
+}
+
+.netflix-cntnt .bttn {
+    padding-left: 10px;
+}
+
+/* -----------------------------text--------------------------------- */
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 92px;
+}
+
+.txt h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-size: 51px;
+    font-weight: bold;
+}
+
+.txt h3 {
+    font-size: 32px;
+}
+
+.txt p {
+    font-size: 21px;
+}
+
+.type {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px;
+}
+
+.box1 {
+    height: 54px;
+    border-radius: 5px;
+    width: 377px;
+    padding-left: 9px;
+    opacity: 32%;
+    border: none;
+    color: white;
+}
+
+.get {
+    margin-left: 5px;
+}
+
+.get .btn {
+    height: 52px;
+    width: 147px;
+}
+
+/* -------------------------------------------main page--------------------------------------------------- */
+
+.nav-img {
+    background-image: url('./img/netflix\ logo.png');
+    background-size: cover;
+    height: 49px;
+    width: 156px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.nav-item:hover {
+    /* padding-top: .5px; */
+    color: red;
+    text-decoration: underline;
+}
+.nav-item a:hover{
+    color: red;
+}
+
+/* -----------------caroudel--------------------- */
+.carousel-item #c1 {
+    /* spider */
+    width: 100%;
+    height: 550px;
+    background: url('https://images.thedirect.com/media/article_full/spider-verse-2-trailer.jpg');
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.carousel-item #c2 {
+    /* dark */
+    width: 100%;
+    height: 550px;
+    background: url('https://nowthisiswhatiwouldcallmusic.files.wordpress.com/2017/12/74ae65bda73399386335637a477702dd30b38def-e1532170920377.jpg?w=1280');
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.carousel-item #c3 {
+    /* heist */
+    width: 100%;
+    height: 550px;
+    background: url('https://wallpapers.com/images/high/professor-money-heist-netflix-poster-ph3d24ry6c3py8hu.webp');
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+
+/* ------------------------------tv shows------------------------------------------------ */
+/* -------------------- */
+#tv-a1 {
+    background-image: url('https://ntvb.tmsimg.com/assets/p10700229_b_h10_aa.jpg?w=960&h=540');
+    background-size: cover;
+}
+
+#tv-a2 {
+    background-image: url('https://ntvb.tmsimg.com/assets/p8696131_b_h10_aa.jpg?w=960&h=540');
+    background-size: cover;
+}
+
+#tv-a3 {
+    background-image: url('https://www.patsonic.com/wp-content/uploads/2023/06/king-the-land-series-review-featured.jpg');
+    background-size: cover;
+}
+
+#tv-a4 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFCzn1LVFA8jhz8IF8LOZblNnQUn1QE9Y-JVrymwPgMtvQ9OxQmXxIosJiGo-9BMNGF8utPeTaXKeNlktasvQ8GqYyq-tf2BeCYulIIFUpfY4n9nw2e_fqhT1m70hv89ZzzRNvjpJ5XrPqEfI7U7hRc153fHDgMwrq_PC1Ze1aI7m1mqbwhVULTyaWOw/s1400/Sam-Corlett-Leo-Suter-Vikings-Valhalla.jpeg');
+    background-size: cover;
+}
+
+#tv-b1 {
+    background-image: url('https://dailyresearchplot.com/wp-content/uploads/2022/09/1-734.jpg');
+    background-size: cover;
+}
+
+#tv-b2 {
+    background-image: url('https://images.indianexpress.com/2023/08/heartstopper2.jpg');
+    background-size: cover;
+}
+
+#tv-b3 {
+    background-image: url('https://occ-0-34-41.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABV5lteI3eHet1nPBQKC_uEChESjqQfYpRwMWLR0wULt52odnxQtG69JNFDj9N4maZWJWDFZyi2sc1YzZ8mKE4Ajmt7Btva1CnWagGbYXVMp3t4OETM4LwiD70dHu-qWUbBAesQ.jpg?r=c68');
+    background-size: cover;
+}
+
+#tv-b4 {
+    background-image: url('https://img.indiaforums.com/media/640x0/55/7311-never-have-i-ever.jpg');
+    background-size: cover;
+}
+
+/* -------------------------------------------------nxt 2nd------------------------------------ */
+#tv-c1 {
+    background-image: url('https://filminformation.com/wp-content/uploads/2023/04/THE-POPES-1024x576.jpg');
+    background-size: cover;
+}
+
+#tv-c2 {
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/dd388771378c0f41c15c1736a3020e6204c968bc35be91ab64855fb6514d8ce7._UY500_UX667_RI_TTW_.jpg');
+    background-size: cover;
+}
+
+#tv-c3 {
+    background-image: url('https://images1.resources.foxtel.com.au/store1/mount1/FBO/2015/I@057807_L.jpg');
+    background-size: cover;
+}
+
+#tv-c4 {
+    background-image: url('https://images.saymedia-content.com/.image/t_share/MTc0NDA1NjIwMjE5NzE3MjU0/movies-like-fifty-shades-of-grey.jpg');
+    background-size: cover;
+}
+
+#tv-d1 {
+    background-image: url('https://staticg.sportskeeda.com/editor/2023/06/339c4-16868969554531-1920.jpg?w=840');
+    background-size: cover;
+}
+
+#tv-d2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQixc4EvGPyZbAxtTyuG1gatxuRQWtHEBmDGQ&usqp=CAU');
+    background-size: cover;
+}
+
+#tv-d3 {
+    background-image: url('https://i0.wp.com/foodfunfamily.com/wp-content/uploads/2013/07/Turbo-Shampoo.jpg?resize=600%2C445&ssl=1');
+    background-size: cover;
+}
+
+#tv-d4 {
+    background-image: url('https://lehren.com/wp-content/uploads/2022/01/Netflix-Is-Planning-To-Make-TWO-Red-Notice-Sequels-Starring-Original-Cast.jpg');
+    background-size: cover;
+}
+
+/* -----------------------------------nxt----------------------------------- */
+/* -------------------------------------------------recently------------------------------------ */
+#tv-e1 {
+    background-image: url('https://anfieldindex.com/wp-content/uploads/babydriver-Review.png');
+    background-size: cover;
+}
+
+#tv-e2 {
+    background-image: url('https://castlesandturretsblog.files.wordpress.com/2016/08/what-if-movie-poster.png');
+    background-size: cover;
+}
+
+#tv-e3 {
+    background-image: url('https://occ-0-953-999.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABe-xNppwnTaoUmorydmZZSNXAzdGQbFF9sfNs1Uo8dTI5NvrlQ_GwFH9JFK7ji36kDUTBXuLS2nB3wbaF_9lKdB1EKBgO8LaGUJJnd4JtaNDY4I8LtCdWByoRNnvRq_mcFPt_A.jpg?r=792');
+    background-size: cover;
+}
+
+#tv-e4 {
+    background-image: url('https://occ-0-616-621.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ_s-i8DvR7cFACRjFLxCsvb6P1N4eLzFCIPThRZd3aibhm1Z3e1ydsg448dJUzT4Zd385FS4J5dDa5SimN_6XZlqB20wYDsnSeMwXTIXwrh_jp7AObM8kZadyOoYfUdIthc.jpg?r=c8e');
+    background-size: cover;
+}
+
+/* ------------------- */
+#tv-f1 {
+    background-image: url('https://occ-0-38-64.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWdbFmrJ3sijPdUzRUGMxf2HbWTQQNmCQguPQUgn_eNrbRRU8NXWJMzU4Fl2ZDqbzejzSOrRWDoZfRSGkBXaDZox1tSUkQxP9EqVwAcm8Cndz-MfCamHdcSNDBSVbbPic_7bpA.jpg?r=538');
+    background-size: cover;
+}
+
+#tv-f2 {
+    background-image: url('https://2.bp.blogspot.com/-KGEWSPd45LY/Um6P-kg4AAI/AAAAAAAAAvI/qLv4PfmYE3E/s1600/enders_ukquad_final.jpg');
+    background-size: cover;
+}
+
+#tv-f3 {
+    background-image: url('https://kmit.in/emagazine/wp-content/uploads/2016/03/spotlight-2015-directed-by-tom-mccarthy-movie-review2.jpg');
+    background-size: cover;
+}
+
+#tv-f4 {
+    background-image: url('https://www.geekgirlauthority.com/wp-content/uploads/2016/01/the-big-short-2.jpg');
+    background-size: cover;
+}
+
+/* -------------------------------------------------list------------------------------------ */
+#tv-g1 {
+    background-image: url('https://imgeng.jagran.com/images/2022/nov/18991668670366737.jpg');
+    background-size: cover;
+}
+
+#tv-g2 {
+    background-image: url('https://img.netnaija.com/xCdHHK.jpg');
+    background-size: cover;
+}
+
+#tv-g3 {
+    background-image: url('https://tellymix.co.uk/wp-content/uploads/2023/04/428844.jpg');
+    background-size: cover;
+}
+
+#tv-g4 {
+    background-image: url('https://wallpapercave.com/wp/wp2092974.jpg');
+    background-size: cover;
+}
+
+/* ------------------- */
+#tv-h1 {
+    background-image: url('https://shatpod.com/movies/wp-content/uploads/Total-Recall-1990-Movie-Poster.jpg');
+    background-size: cover;
+}
+
+#tv-h2 {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/pv-target-images/afee8a6686d6a35b0dc178e3cf3fe050b106ee3438f6f30ca9ea8cd5123e1ece._UY500_UX667_RI_TTW_.jpg');
+    background-size: cover;
+}
+
+#tv-h3 {
+    background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/02/Mad-Men-Series-Finale.jpg');
+    background-size: cover;
+}
+
+#tv-h4 {
+    background-image: url('https://saichintala.files.wordpress.com/2014/11/interstellar-3.jpg');
+    background-size: cover;
+}
+
+
+/* ---------------------------- */
+/* -------------------- */
+.pop-title {
+    height: 47px;
+    padding-left: 29px;
+    padding-right: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 18px;
+    align-items: center;
+    /* text-align: center; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.pop-title h3 {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.hidden {
+    color: red;
+    padding-top: 15px;
+    text-decoration: none;
+    display: none;
+}
+
+
+/* ==----------------------------------------- */
+.slide-one {
+    width: 100%;
+    height: 222px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 360px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    right: 0;
+    position: absolute;
+    background-color: #1f3d4738;
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card:hover .card-body {
+    bottom: 0;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-sub-title {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.card-info {
+    font-size: 14px;
+    color: white;
+    font-weight: lighter;
+    line-height: 15px;
+    text-align: justify;
+}
+
+.card-bttn {
+    cursor: pointer;
+}
+
+/* -------------slide two----------------------------- */
+
+.slide-two {
+    width: 100%;
+    height: 222px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#oops1 {
+    /* display: none; */
+}
+
+/* footer-------------------------------------- */
+
+.f1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 70px;
+}
+
+.foot1 {
+    display: flex;
+}
+
+.f2 {
+    padding-left: 52px;
+}
+.f4 {
+    /* padding-left: 90px; */
+}
+
+.f3 {
+    padding-left: 52px;
+}
+
+#footer {
+    padding: 20px;
+    background-color: black;
+}
+
+.cntct {
+    padding-left: 261px;
+    color: rgb(180, 177, 177);
+}
+
+.foot1 ul li a {
+    text-decoration: none;
+    color: rgb(180, 177, 177);
+}
+/* .foot1 ul li :hover{
+    color: red;
+} */
+#footer :hover{
+    color: red;
+}
+
+/* Copyright------------------------ */
+.Copyright{
+    background-color: black;
+    color: rgb(180, 177, 177);
+}
+.d-flex a:hover{
+    color: red;
+    /* background-color: aqua; */
+}
+.icons a{
+    color: white;
+}
+
+
+
+
+
+
+
+/* .v{
+
+    width: 100%;
+    height: 500px;
+} */
+
+@media (max-width: 600px) {
+
+    /* -------------------------------home--------------------------- */
+
+    #oops1 {
+        /* display: contents; */
+    }
+
+    .bg-img {
+        background-image: url('./img/Untitled.jpeg');
+        background-size: cover;
+        width: 100%;
+        height: 812px;
+        /* filter: brightness(40%); */
+    }
+
+    .nv {
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 22px;
+    }
+
+    .netflix-img {
+        background-image: url('./img/netflix\ logo.png');
+        background-size: cover;
+        height: 58px;
+        width: 176px;
+        margin-top: -5px;
+        margin-left: 2px;
+        filter: brightness(100%);
+    }
+
+    .netflix-cntnt {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 3px;
+    }
+
+    .netflix-cntnt .bttn {
+        padding-top: 18px;
+        padding-left: 0px;
+    }
+
+    .bttn .btn {
+        width: 109px;
+        height: 36px;
+    }
+
+    .drop {
+        height: 20px;
+        /* margin-left: -151px; */
+        /* width: 35px; */
+        padding-left: -5px;
+    }
+
+    .drop .btn {
+        width: 109px;
+        height: 36px;
+    }
+
+    /* -----------------------text----------------------------------- */
+
+    .txt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 12px;
+    }
+
+    .txt h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 46px;
+        font-weight: bold;
+        padding: 0px 3px;
+        margin-top: 17px;
+    }
+
+    .txt h3 {
+        font-size: 22px;
+        margin-top: 39px;
+    }
+
+    .txt p {
+        font-size: 17px;
+        padding: 0px 23px;
+    }
+
+    .type {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 4px;
+    }
+
+    .box1 {
+        height: 54px;
+        border-radius: 5px;
+        width: 367px;
+        padding-left: 9px;
+        opacity: 32%;
+        border: none;
+    }
+
+    .get {
+        margin-left: 5px;
+    }
+
+    .get .btn {
+        height: 52px;
+        width: 357px;
+        margin-top: 14px;
+        padding-left: 9px;
+        margin-left: -5px;
+    }
+
+
+    /* ----------------------------------main-|--||--|-page------------------------------------ */
+
+    .nav-img {
+        background-image: url('./img/netflix\ logo.png');
+        background-size: cover;
+        height: 42px;
+        width: 126px;
+    }
+
+    .nav-item:hover {
+        padding-top: 1px;
+        color: red;
+        text-decoration: underline;
+    }
+
+    /* -----------------caroudel--------------------- */
+    .carousel-item #c1 {
+        /* spider */
+        width: 100%;
+        height: 187px;
+        background: url('https://i.ytimg.com/vi/y4Zp8jcwT0M/maxresdefault.jpg');
+        background-size: cover;
+        filter: brightness(60%);
+    }
+
+    .carousel-item #c2 {
+        /* dark */
+        width: 100%;
+        height: 187px;
+        background: url('https://uploads-ssl.webflow.com/6299f2e9711457612f15f77e/62f0de6fcaeb3531f0fa8cc7_dark.jpg');
+        background-size: cover;
+        filter: brightness(60%);
+    }
+
+    .carousel-item #c3 {
+        /* heist */
+        width: 100%;
+        height: 187px;
+        background: url('https://i0.wp.com/vodapav.in/wp-content/uploads/2021/05/Money-Heist-Date-Announced.jpg?fit=1280%2C720&ssl=1');
+        background-size: cover;
+        filter: brightness(60%);
+    }
+
+    /* ------------------------------tv shows------------------------------------------------ */
+    /* -------------------- */
+    #tv-a1 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMDk3YzgxNDQtNTEzOS00NDMyLWFlYmYtYTZlMDk1NDkxNmMyXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_.jpg');
+        background-size: cover;
+    }
+
+    #tv-a2 {
+        background-image: url('https://rukminim1.flixcart.com/image/850/1000/kdga1zk0/poster/2/p/i/large-breakingbad04-breaking-bad-poster-breaking-bad-series-original-imafuc2fvfjyackz.jpeg?q=20');
+        background-size: cover;
+    }
+
+    #tv-a3 {
+        background-image: url('https://photos.hancinema.net/photos/photo1669462.jpg');
+        background-size: cover;
+    }
+
+    #tv-a4 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMmZlYTQ3NjQtZmIxNC00MzA4LTg1NDgtMmEzODk0MzA4NjQxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg');
+        background-size: cover;
+    }
+
+    /* ----------------------------------------------------------- */
+    #tv-b1 {
+        background-image: url('https://assetsio.reedpopcdn.com/The-Witcher-season-3-chapter-1-poster-c.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp');
+        background-size: cover;
+    }
+
+    #tv-b2 {
+        background-image: url('https://fb2bookfree.com/uploads/posts/2022-10/1666753172_12749584-l.jpg');
+        background-size: cover;
+    }
+
+    #tv-b3 {
+        background-image: url('https://res.cloudinary.com/itimages/image/fetch/c_scale,w_400,q_auto:eco,f_auto/https://images.randomhouse.com/cover/d/9780593723241');
+        background-size: cover;
+    }
+
+    #tv-b4 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BZTY5ZmMwMDQtMmYxYy00ZTYyLWE5MDItZGUwM2I5NTAwOGUwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg');
+        background-size: cover;
+    }
+
+    /* -------------------------------------------------nxt 2nd------------------------------------ */
+    #tv-c1 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BYjA0MGU4MzYtYTYxMy00MjRhLTlmMDYtZTVhZDc1Y2QwNWY2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_FMjpg_UX1000_.jpg');
+        background-size: cover;
+    }
+
+    #tv-c2 {
+        background-image: url('https://images.moviesanywhere.com/8457d76499764f4b317c73b5e1bae91c/a2616712-ec1b-4d79-86e0-f67d4b4d691b.jpg');
+        background-size: cover;
+    }
+
+    #tv-c3 {
+        background-image: url('https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/the-karate-kid-2010/large_l13emtM0cz0HyJeWSxb6ml5RvzT.jpg');
+        background-size: cover;
+    }
+
+    #tv-c4 {
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/7/73/Fifty_Shades_of_Grey_poster.jpg');
+        background-size: cover;
+    }
+
+    /* ----------------------- */
+    #tv-d1 {
+        background-image: url('https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQbZjePaFmA1nw9NalBHKm6R7Xiwc_4-2A7PKbYJ3EWK0IT5vTw4HR6sJ4WlwqXGhRKiwSTtp6-wGhlY750yin8w_JJevpFlgvhogv0bfr6bn0WVjiajXsK9Cex_fhe9joqH2r9FxUuh1lpGglkRJ7eun.jpg?r=052');
+        background-size: cover;
+    }
+
+    #tv-d2 {
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/0/09/Lust_Stories_%282018%29_poster.jpg');
+        background-size: cover;
+    }
+
+    #tv-d3 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMTA4NTgwMjM5MzheQTJeQWpwZ15BbWU3MDg2ODA1ODk@._V1_FMjpg_UX1000_.jpg');
+        background-size: cover;
+    }
+
+    #tv-d4 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg');
+        background-size: cover;
+    }
+
+    /* -------------------------------------------------recently------------------------------------ */
+    #tv-e1 {
+        background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/baby-driver-et00040794-14-03-2017-09-05-24.jpg');
+        background-size: cover;
+    }
+
+    #tv-e2 {
+        background-image: url('https://pics.filmaffinity.com/What_If-356800881-large.jpg');
+        background-size: cover;
+    }
+
+    #tv-e3 {
+        background-image: url('https://dnm.nflximg.net/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABW_oAcUYzKnMAwOe0SCYZJ8cJzsVeT6VKh7sv5905tJx-6Fa_vq7n3ikpfO65CJvlvKGrlLQA7lNqMqZb0lsMTw8ZBGYwIzbHQJx81r4RlG8mujfYrMLkANEu046HstcPjq6Zw.jpg?r=447');
+        background-size: cover;
+    }
+
+    #tv-e4 {
+        background-image: url('https://canvas.tubitv.com/68510488-1f81-4352-846d-f932e3f254cc/x9kxZY?w=256&h=368');
+        background-size: cover;
+    }
+
+    /* ------------------- */
+    #tv-f1 {
+        background-image: url('https://upload.wikimedia.org/wikipedia/en/1/12/The_Rain.png');
+        background-size: cover;
+    }
+
+    #tv-f2 {
+        background-image: url('https://cdn.moviefone.com/image-assets/80274/hEioY3LlqBwvIpZeZuR1BMaAgv1.jpg?d=360x540&q=60');
+        background-size: cover;
+    }
+
+    #tv-f3 {
+        background-image: url('https://www.clarion-journal.com/.a/6a00d834890c3553ef01b7c81a3ef8970b-pi');
+        background-size: cover;
+    }
+
+    #tv-f4 {
+        background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/the-big-short-et00035739-12-03-2021-07-23-16.jpg');
+        background-size: cover;
+    }
+
+    #tv-g1 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMTU1N2I5OTgtNDE2MS00ZTdmLWJlODktNDMwMGVmNzY5NmUxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg');
+        background-size: cover;
+    }
+
+    #tv-g2 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BMjI5Mjg1NDcyOV5BMl5BanBnXkFtZTgwMjAxOTQ5MTI@._V1_FMjpg_UX1000_.jpg');
+        background-size: cover;
+    }
+
+    #tv-g3 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp_FuxaFgdgaMMLa8Lk0ZOUrEuf4nMZOAMtgJwKq73S8oZyiTq');
+        background-size: cover;
+    }
+
+    #tv-g4 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BZGUwMjk3NmQtODA2OS00ZTY0LThjNzctYmI4NGM0MzJhZWMwXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg');
+        background-size: cover;
+    }
+
+    /* ------------------- */
+    #tv-h1 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BYzU1YmJjMGEtMjY4Yy00MTFlLWE3NTUtNzI3YjkwZTMxZjZmXkEyXkFqcGdeQXVyNDc2NjEyMw@@._V1_.jpg');
+        background-size: cover;
+    }
+
+    #tv-h2 {
+        background-image: url('https://m.media-amazon.com/images/M/MV5BOWFhOTc1MmYtOGYxZS00YTBmLWEwZTYtZTkwZTZmZDM2M2MwXkEyXkFqcGdeQXVyMjQ2NDU3NDY@._V1_.jpg');
+        background-size: cover;
+    }
+
+    #tv-h3 {
+        background-image: url('https://tentwentysixpm.files.wordpress.com/2016/08/madmenposter.png');
+        background-size: cover;
+    }
+
+    #tv-h4 {
+        background-image: url('https://cinesnark.files.wordpress.com/2014/11/interstellar-poster.jpg?w=620');
+        background-size: cover;
+    }
+
+    #z1,
+    #z2,
+    #z3,
+    #z4,
+    #z5,
+    #z6,
+    #z7,
+    #z8 {
+        display: none;
+    }
+
+    /* ---------------------------- */
+    /* -------------------- */
+    .pop-title {
+        width: 100%;
+        height: 47px;
+        padding-left: 29px;
+        padding-right: 17px;
+        display: flex;
+        padding: 15px 18px;
+        align-items: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+
+    .pop-title h3 {
+        padding-top: 8px;
+        font-size: 15px;
+        /* padding-left: -11px; */
+    }
+
+    .hidden {
+        color: rgb(207, 0, 0);
+        padding-top: 8px;
+        text-decoration: none;
+        display: contents;
+        font-size: 13px;
+    }
+
+    #none {
+        display: contents;
+    }
+
+    /* ==----------------------------------------- */
+    .slide-one {
+        width: 100%;
+        height: 190px;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 210px;
+        height: 400px;
+        border-radius: 15px;
+        border: none;
+        overflow: hidden;
+        position: relative;
+        color: white;
+        margin: 0px 3px;
+    }
+
+    .card-img {
+        width: 210px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 15px;
+        border: none;
+    }
+
+    .card-body {
+        width: 100%;
+        height: 100%;
+        bottom: -100%;
+        right: 0;
+        position: absolute;
+        background-color: #1f3d4738;
+        backdrop-filter: blur(4px);
+        border-radius: 15px;
+        border: none;
+        color: white;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 1s;
+    }
+
+    .card:hover .card-body {
+        bottom: 0;
+    }
+
+    .card-title {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .card-sub-title {
+        text-transform: capitalize;
+        font-size: 8px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .card-info {
+        font-size: 9px;
+        line-height: 23px;
+        color: white;
+        font-weight: lighter;
+        line-height: 6px;
+        text-align: justify;
+    }
+
+    .card-bttn {
+        padding: 0px 2px;
+        cursor: pointer;
+    }
+
+    .card-bttn .btn {
+        width: 30px;
+        height: 15px;
+        font-size: 3px;
+    }
+
+    #none {
+        display: none;
+    }
+
+    /* -------------slide two----------------------------- */
+
+    .slide-two {
+        width: 100%;
+        height: 190px;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /* footer-------------------------------------- */
+
+    .f1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .foot1 {
+        display: flex;
+    }
+
+    .f2 {
+        /* padding-left: 11px; */
+    }
+
+    .f3 {
+        /* padding-left: 11px; */
+    }
+
+    #footer {
+        padding: 10px;
+        background-color: black;
+        height: 267px;
+    }
+
+    .cntct {
+        padding-left: 21px;
+        color: rgb(180, 177, 177);
+        margin-top: 9px;
+    }
+
+    .foot1 ul li a {
+        text-decoration: none;
+        color: rgb(180, 177, 177);
+        font-size: 12px;
+    }
+    #footer :hover{
+        color: red;
+    }
+    /* .d-flex a :hover{
+        color: red;
+    } */
+  
+    /* Copyright------------ */
+
+    .text{
+        height: 20px;
+        background-color: black;
+    }
+   
+
+
+}
